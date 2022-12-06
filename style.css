@@ -1,0 +1,74 @@
+html {
+  font-size: 10px;
+  background: url('./background.jpg') bottom center;
+  background-size: cover;
+  height: 100vh;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  background: rgba(0,0,0,.9);
+  width: fit-content;
+  margin: 5rem auto 15rem auto;
+  border-radius: 70px;
+  padding: 40px;
+}
+
+.keyWrapper {
+  display: flex;
+  background: rgba(255,255,255,.6);
+  padding: 40px 20px;
+  border: 3px outset azure;
+  box-shadow: 9px 15px 10px #000;
+  border-radius: 18px;
+  cursor: url(images/drumSticks.png), auto;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.key {
+  border: 0.4rem double black;
+  border-radius: 100%;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 2rem 0.5rem 1rem 0.5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  height: 8rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.7);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.key:hover {
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
